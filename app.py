@@ -47,7 +47,7 @@ app = Flask(__name__)
 
 
 #Home page 
-@app.route("/index.html")
+@app.route("/")
 def home():
     """List static html page."""
     return render_template("index.html")
